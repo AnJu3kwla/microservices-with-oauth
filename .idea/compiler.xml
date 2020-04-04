@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oauth-demo" />
+        <module name="zuul-gateway" />
+        <module name="good-afternoon" />
+        <module name="good-evening" />
+        <module name="good-morning" />
+        <module name="discovery-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discovery-server" target="1.8" />
+      <module name="good-afternoon" target="1.8" />
+      <module name="good-evening" target="1.8" />
+      <module name="good-morning" target="1.8" />
+      <module name="oauth-demo" target="1.8" />
+      <module name="zuul-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="discovery-server" options="-parameters" />
+      <module name="good-afternoon" options="-parameters" />
+      <module name="good-evening" options="-parameters" />
+      <module name="good-morning" options="-parameters" />
+      <module name="oauth-demo" options="-parameters" />
+      <module name="zuul-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>
