@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/good-evening/good-evening.iml" filepath="$PROJECT_DIR$/good-evening/good-evening.iml" />
       <module fileurl="file://$PROJECT_DIR$/good-morning/good-morning.iml" filepath="$PROJECT_DIR$/good-morning/good-morning.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservice-with-oauth .iml" filepath="$PROJECT_DIR$/.idea/microservice-with-oauth .iml" />
-      <module fileurl="file://$PROJECT_DIR$/oauth-demo/oauth-demo.iml" filepath="$PROJECT_DIR$/oauth-demo/oauth-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" />
     </modules>
   </component>
