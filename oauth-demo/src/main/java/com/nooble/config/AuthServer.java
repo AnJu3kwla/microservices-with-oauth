@@ -86,8 +86,7 @@ public class AuthServer extends AuthorizationServerConfigurerAdapter {
     private AuthenticationManager authenticationManager;
     @Autowired
     private PasswordEncoder passwordEncoder;
-//    @Autowired
-//    private DataSource dataSource;
+
 
 
 
@@ -104,17 +103,8 @@ public class AuthServer extends AuthorizationServerConfigurerAdapter {
 
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
-//        endpoints.tokenStore(tokenStore());
         endpoints.authenticationManager(authenticationManager);
-//        endpoints.accessTokenConverter(accessTokenConverter());
     }
-//    @Bean
-//    public TokenStore tokenStore() {
-//        return new JdbcTokenStore(dataSource);
-//    }
-//    @Bean
-//    public JwtAccessTokenConverter accessTokenConverter() {
-//        return new JwtAccessTokenConverter();
-//    }
+
 }
 
